@@ -1,0 +1,21 @@
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+}
+ ul li{
+    list-style: none;
+    padding: 15px;
+}
+/* .nav{
+    height:15vh;
+    display: flex;
+    padding: 10px 25px;
+} */

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --main-bg-color:#2874f0;
+}
+*{
+   margin: 0; 
+    padding: 0;
+} 
+header{
+    background-color:var(--main-bg-color);
+    font-family: 'Open Sans',sans-serif;
+    height: 11vh;
+
+}
+
+nav img{
+    display: flex;
+    width: 100px;
+}
+header nav ul{
+    display: flex;
+    height:1em;
+    list-style: none;
+    padding: 0 15px;
+}
+.list{
+    display: flex;
+    height: 33px;
+}
+header nav li a{
+    text-decoration: none;
+    color:rgb(247, 247, 247);
+}
+header nav li a:hover{
+    font-weight:700;
+}
+footer{
+    background-color:var(--main-bg-color);
+    color: white;
+    height: 13vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.Container{
+    min-height: calc(78.8vh);
+    background-color: rgb(255, 255, 255);
+}
+.search{
+    display: flex;
+    width:500px;
+    height:35px;
+    padding: 0 25px;
+    margin: 5px;
+}
+.input{
+    border-radius: 4px;
+    width:1000px;
+    display: flex;
+    font-size: 15px;
+    padding: 12px;
+}
+.input:hover{
+    transform: scaleX(1.05);
+    transform: scaleY(1.05);
+}
+#searching{
+    padding: 8px;
+    display: flex;
+    border: 2px solid rgb(59, 162, 231);
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height:25px;
+    cursor:pointer;
+}
+.slider{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+    width:90vw;
+    height:40vh;
+}
+#checkthese{
+    background-color: rgb(204, 202, 202);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin:20px;
+}
+.btn{
+    font-size: 30px;
+    width:70px;
+    height:110px;
+}
+.phonesec{
+   margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#p3:hover{
+    transform: scaleY(1.1);
+    transform: scaleX(1.05);
+}
+#p2:hover{
+    transform: scaleY(1.1);
+    transform: scaleX(1.05);
+}
+#p1:hover{
+    transform: scaleY(1.1);
+    transform: scaleX(1.05);
+}

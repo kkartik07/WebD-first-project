@@ -1,0 +1,21 @@
+@media  screen and (max-width:1000px) {
+
+   .nav{
+       flex-direction: column;
+   }
+   .slider img{
+       justify-content: center;
+    width:90vw;
+    height:45vh;
+}
+
+.search{
+    margin: 12px;
+
+}
+header{
+height: 25vh;
+padding:10px;
+}
+
+}
